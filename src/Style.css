@@ -1,0 +1,50 @@
+html, body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container{
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addTask{
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  width: 100%;
+}
+
+#taskText{
+  width: 30vw;
+}
+
+
+
+
+/* .taskListContainer{
+
+} */
+
+
+.taskList{
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  list-style-type: none;
+}
+
+.taskItem{
+  border: 1px solid black;
+  width: 40vw;
+}
+
+
+
+
+
